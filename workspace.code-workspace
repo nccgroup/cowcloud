@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "ec2py"
+		},
+		{
+			"path": "frontEnd"
+		},
+		{
+			"path": "Terraform"
+		}
+	],
+	"settings": {}
+}

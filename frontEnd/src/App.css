@@ -1,0 +1,28 @@
+:root {
+  --primary-color: rgba(35, 49, 86, 0.8);
+  --secondary-color: #ddd;
+  --color-pageNumbers: black;
+  --center-col: #aaa;
+  --right-col: #e7e7e7;
+  --simple-color: white;
+}
+
+.App {
+  margin: 15px 100px 10px 100px;
+  font-family: Roboto, sans-serif;
+}
+
+.App h5 {
+  color: var(--primary-color);
+  margin: 0px 10px 73px 10px;
+}
+
+@media (max-width: 768px) {
+  .App {
+    margin: 66px 20px 100px 20px;
+  }
+  .refreshPageBton {
+    margin-top: 5px;
+  }
+}
+

@@ -1,0 +1,42 @@
+.pageNumbers {
+  position: absolute;
+  list-style: none;
+  display: inline-flex;
+  margin: -14px 0px 0px 319px;
+  color: var(--color-pageNumbers);
+}
+
+.pageNumbers li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.pageNumbers li.active {
+  background: var(--secondary-color);
+  color: var(--color-pageNumbers);
+}
+
+.pageNumbers li:hover {
+  background-color: var(--primary-color);
+  color: var(--simple-color);
+}
+
+.pageNumbers li button {
+  border: none;
+  color: var(--color-pageNumbers);
+  background: var(--simple-color);
+  cursor: pointer;
+}
+
+.pageNumbers li button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .pageNumbers {
+    margin: -14px 0px 0px 10px;
+  }
+  .taskTitle {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,25 @@
+.DashBoard {
+  margin-top: 1rem;
+}
+
+.left-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secondary-color);
+}
+
+.center-col {
+  flex: 1;
+  background: var(--center-col);
+  overflow-y: scroll;
+}
+
+.right-col {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--right-col);
+}

@@ -1,0 +1,9 @@
+div .Workers {
+  height: 446px;
+}
+
+@media (max-width: 768px) {
+  .workersTitle {
+    margin-top: 65px;
+  }
+}
